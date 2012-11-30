@@ -1,0 +1,3 @@
+$('#map_canvas').empty();
+<%= render :partial => 'map', :locals => {:lat => 40.7361, :long => -73.9901, :zoom => 13} %>
+<%= render :partial => 'pin', :collection => @subways, :as => :entrance %>

@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: subz_development
+  pool: 5
+  host: localhost
+  username: chyld
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: subz_production
+  pool: 5
+  host: localhost
+  username: chyld
+  password:

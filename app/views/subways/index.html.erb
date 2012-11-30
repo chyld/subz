@@ -1,0 +1,8 @@
+<div id="search">
+  <%= form_tag '/search', :remote => true do %>
+    <%= text_field_tag 'query' %>
+  <% end %>
+</div>
+<div id="map">
+  <div id="map_canvas"></div>
+</div>
